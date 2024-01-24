@@ -51,11 +51,7 @@ import sys
 
 def handshake(n):
     # Write your code here
-    def factorial(num):
-        if num==1:
-            return num
-        return num*factorial(num-1)
-    return factorial(n)//2
+    return n*(n-1)//2
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
