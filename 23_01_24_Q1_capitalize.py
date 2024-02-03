@@ -26,3 +26,14 @@ Chris Alan"""
 def solve(s):
     return ' '.join([word.capitalize() for word in s.split(' ')])
 
+
+def solve(s):
+    arr = s.split(' ')
+    for n in range(len(arr)):
+        arr[n] = arr[n].capitalize()
+    print(' '.join(arr))
+
+
+        
+        
+
