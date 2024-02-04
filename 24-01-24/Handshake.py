@@ -53,16 +53,10 @@ def handshake(n):
     # Write your code here
     return n*(n-1)//2
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+def handshake(n):
+    if n==1:
+        return 0
+    return sum(range(n))
 
-    t = int(input().strip())
-
-    for t_itr in range(t):
-        n = int(input().strip())
-
-        result = handshake(n)
-
-        fptr.write(str(result) + '\n')
-
-    fptr.close()
+def handshake(n):
+    return (n*(n+1))//2 - n 
