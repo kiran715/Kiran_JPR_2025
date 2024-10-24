@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+
+
+nav {
+    background-color: rgb(221, 221, 93);
+    height: 60px;
+}
+
+header {
+    background-color: lightcoral;
+    height: 120px;
+}
+
+.up {
+    height: 300px;
+}
+
+.down {
+    height: 200px;
+}
+
+.sidebar {
+    background-color: rgb(116, 116, 192);
+    width: 30%;
+    float: left;
+    height: 300px;
+}
+
+.main {
+    background-color: lightseagreen;
+    height: 300px;
+}
+
+.aside1 {
+    background-color: lightsalmon;
+    width: 33.3%;
+    float: left;
+    height: 140px;
+}
+.aside2 {
+    background-color: lightgreen;
+    width: 33.3%;
+    float: left;
+    height: 140px;
+}
+.aside3 {
+    background-color: rgb(203, 74, 203);
+    width: 33.3%;
+    float: right;
+    height: 140px;
+}
+
+footer {
+    background-color: darkgray;
+    height: 60px;
+    clear: both;
+}
+
